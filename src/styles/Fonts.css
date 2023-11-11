@@ -1,0 +1,15 @@
+/* ------------------------------------------------- */
+/* Plaid font */
+/* ------------------------------------------------- */
+@font-face {
+    font-family: 'Plaid-xl';
+    src: url(../../public/fonts/Plaid-Trial-XL.otf);
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url(../../public/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url(../../public/fonts/Poppins-Regular.ttf);
+}

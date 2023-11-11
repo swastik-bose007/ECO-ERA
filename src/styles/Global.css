@@ -1,0 +1,62 @@
+@import url('./Fonts.css');
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: #FFFFFF;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  /* ------------------------------ */
+  /* COLORS */
+  /* ------------------------------ */
+  --color-1: #FFFFFF;
+  --color-2: #b3efb2;
+  --color-3: #7a9e7e;
+  --color-4: #31493c;
+  --color-5: #1e2d23;
+  --color-6: #111D13;
+  --color-7: rgba(255, 255, 255, 0.33);
+  /* ------------------------------ */
+  /* FONTS */
+  /* ------------------------------ */
+  --font-1: 'Plaid-xl';
+  --font-2: 'Poppins-light';
+  --font-3: 'Poppins-regular';
+}
+
+/* ------------------------------ */
+/* TYPOGRAPHY */
+/* ------------------------------ */
+.font-1 {
+  font-family: var(--font-1);
+}
+.font-2 {
+  font-family: var(--font-2);
+}
+.font-3 {
+  font-family: var(--font-3);
+}
+
+
+/* .bg-pattern{
+  background: url('../Constants/Pattern.svg');
+  position: relative;
+  object-fit: cover;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) {
+  .bg-pattern{
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-pattern{
+    position: absolute;
+  }
+} */
