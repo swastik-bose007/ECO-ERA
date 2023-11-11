@@ -14,15 +14,21 @@ const HeroRight = () => {
       <div className="flex flex-col justify-center  items-center gap-4">
         <div className="flex flex-col justify-center">
           <Stack direction="row" spacing={2}>
-            <Avatar sx={{ bgcolor: green[200] }}>
-              <FaFacebookF className="text-lg" />
-            </Avatar>
-            <Avatar sx={{ bgcolor: green[200] }}>
-              <RiInstagramFill className="text-lg" />
-            </Avatar>
-            <Avatar sx={{ bgcolor: green[200] }}>
-              <FaXTwitter className="text-lg" />
-            </Avatar>
+            <a href="/">
+              <Avatar sx={{ bgcolor: green[200] }}>
+                <FaFacebookF className="text-lg" />
+              </Avatar>
+            </a>
+            <a href="/">
+              <Avatar sx={{ bgcolor: green[200] }}>
+                <RiInstagramFill className="text-lg" />
+              </Avatar>
+            </a>
+            <a href="/">
+              <Avatar sx={{ bgcolor: green[200] }}>
+                <FaXTwitter className="text-lg" />
+              </Avatar>
+            </a>
           </Stack>
         </div>
         <figure className="mb-10 md:mb-0">
